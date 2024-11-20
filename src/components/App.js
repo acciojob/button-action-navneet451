@@ -5,7 +5,7 @@ const App = (props) => {
   const [isVisible,setIsVisible]=useState(false);
 
   const handleButtonClick = () => {
-    setIsVisible(true);
+    setIsVisible(!isVisible);
   }
 
   return (
