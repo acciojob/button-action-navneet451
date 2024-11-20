@@ -11,7 +11,7 @@ const App = (props) => {
   return (
     <div className="App" id="main">
       <button id="click" onClick="{handleButtonClick}">Click Me</button>
-    <P id="para className={isVisible ? "show" : "hide"}">"Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy".</P>
+    <P id="para" className={isVisible ? "show" : "hide"}>"Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy".</P>
     
     </div>
   );
